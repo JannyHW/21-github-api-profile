@@ -3,3 +3,98 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.sideBar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  position: absolute;
+  top: 50px;
+}
+
+#red {
+  border-bottom: 2px solid red;
+  padding-bottom: 20px;
+}
+
+.profileName {
+  font-size: 30px;
+}
+
+.edit {
+  width: 73%;
+  padding: 10px;
+  background: #fafbfcb7;
+  border: solid 1px lightgrey;
+  border-radius: 5px;
+}
+
+.log-in {
+  color: #838383;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.follow,
+.email,
+.blog,
+.location {
+  color: #838383;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.navbar {
+  height: 50px;
+  padding-top: 20px;
+  position: absolute;
+  padding-left: 450px;
+  padding-bottom: 10px;
+  top: 20px;
+  left: 40px;
+  min-width: 100%;
+}
+
+.navbar a {
+  padding: 0 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.avatar img {
+  border-radius: 50%;
+  max-width: 70%;
+  margin-bottom: 20px;
+}
+#num {
+  border-radius: 50%;
+  width: 25px;
+  font-size: 12px;
+  padding: 5px;
+  background-color: lightgrey;
+  border: none;
+}
+
+.repo {
+  position: absolute;
+  left: 520px;
+  top: 90px;
+  width: 50%;
+}
+
+.eachRepo {
+  height: 160px;
+  padding: 20px 0;
+  padding-right: 50%;
+  color: #2673bbfa;
+  font-weight: bold;
+  line-height: 4;
+  text-decoration: none;
+  border-bottom: 1px solid #e2e4e8;
+}
